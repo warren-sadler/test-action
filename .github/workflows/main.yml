@@ -5,4 +5,4 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: warren-sadler/test-action@v1.1
+        uses: warren-sadler/test-action@v1

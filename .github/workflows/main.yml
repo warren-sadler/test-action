@@ -6,3 +6,5 @@ jobs:
       - name: Hello world action step
         id: hello
         uses: warren-sadler/test-action@v1
+      - name: "Get outputs"
+        run: echo "The repo is ${{ steps.hello.outputs.repo }} and the owner is ${{ steps.hello.oruputs.owner  }}"
